@@ -41,10 +41,10 @@ uv sync
 ### ▶️ Usage
 ```bash
 # Login first (optional if using env vars)
-oc-debug login --token=sha256~xxx --server=https://api.example.com:6443
+uv run oc-debug login --token=sha256~xxx --server=https://api.example.com:6443
 
 # Start debugging prompt
-oc-debug
+uv run oc-debug debug
 ```
 
 ## 🌐 Environment Variable Support
